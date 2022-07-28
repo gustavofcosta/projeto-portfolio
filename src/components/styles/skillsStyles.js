@@ -2,11 +2,13 @@ import styled from "styled-components";
 
 export const SkillsStyles = styled.section`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 1.5rem;
-  padding: 3rem 1rem;
+  padding: 6rem 1rem 3rem 1rem;
 
   article {
+    display: grid;
+    align-items: center;
     padding: 1rem;
     background-color: ${({ theme }) => theme.bgThird};
     box-shadow: 3px 2px 13px -2px rgba(0, 0, 0, 0.71);

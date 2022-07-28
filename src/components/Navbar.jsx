@@ -8,9 +8,17 @@ import { NavBar } from "./styles/navBar";
 
 import ButtonIcons from "./ButtonIcons";
 import { useGlobalContext } from "../contextAPI/context";
+import { AiOutlineClose } from "react-icons/ai";
 
 const Navbar = () => {
-  const { handleDarkMode, handleLightMode, baseTheme } = useGlobalContext();
+  const {
+    handleDarkMode,
+    handleLightMode,
+    baseTheme,
+    openSidebar,
+    closeSidebar,
+    sidebarIsOpen,
+  } = useGlobalContext();
 
   return (
     <NavBar>
@@ -46,7 +54,9 @@ const Navbar = () => {
             const { icon, url } = socialItems;
             return (
               <li key={index}>
-                <a href={url}>{icon}</a>
+                <a target="_blank" href={url}>
+                  {icon}
+                </a>
               </li>
             );
           })}
@@ -60,9 +70,16 @@ const Navbar = () => {
             <FaMoon onClick={handleLightMode} />
           )}
         </ButtonIcons>
-        <ButtonIcons>
-          <FiMenu />
-        </ButtonIcons>
+
+        {sidebarIsOpen ? (
+          <ButtonIcons onClick={closeSidebar}>
+            <AiOutlineClose />
+          </ButtonIcons>
+        ) : (
+          <ButtonIcons onClick={openSidebar}>
+            <FiMenu />
+          </ButtonIcons>
+        )}
       </span>
     </NavBar>
   );

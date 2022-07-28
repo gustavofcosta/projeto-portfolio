@@ -3,9 +3,6 @@ import styled from "styled-components";
 export const Section = styled.section`
   text-align: center;
   position: relative;
-  min-height: ${({ firstSection }) => {
-    return firstSection ? "90vh" : "100vh";
-  }};
   max-width: 100vw;
   background-color: ${({ theme }) => theme.bgPrimary};
 

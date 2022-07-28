@@ -10,7 +10,7 @@ const ButtonStyles = styled.button`
   transition: var(--transition);
 
   :hover {
-    background-color: #3aedb7;
+    background-color: #02bd85;
     color: ${({ theme }) => theme.textBase};
     cursor: pointer;
   }

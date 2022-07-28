@@ -29,7 +29,6 @@ export const WrapperOne = styled.div`
 
   @media screen and (min-width: 800px) {
     display: grid;
-    align-items: center;
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
   }
@@ -39,7 +38,7 @@ export const WrapperOne = styled.div`
     justify-content: center;
     align-items: center;
     justify-content: space-between;
-    max-width: 470px;
+    max-width: 400px;
 
     ul {
       display: flex;
@@ -91,12 +90,15 @@ export const WrapperTwo = styled.div`
   gap: 6rem;
 
   @media screen and (min-width: 1200px) {
+    display: grid;
+    gap: 6rem;
+
     figure {
       margin-left: 10rem;
     }
 
     div {
-      margin-right: 8rem;
+      margin-right: 1rem;
     }
   }
 
@@ -134,7 +136,7 @@ export const WrapperTwo = styled.div`
 
   div:nth-child(2) {
     p {
-      font-size: 1.1rem;
+      font-size: 1.2rem;
     }
   }
 `;

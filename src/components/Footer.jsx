@@ -3,7 +3,7 @@ import { social, home, links } from "../api/appData";
 
 const Footer = () => {
   return (
-    <FooterWrapper>
+    <FooterWrapper id="contact">
       <WrapperOne>
         <div>
           <h1>Gustavo F. Costa</h1>
@@ -15,7 +15,9 @@ const Footer = () => {
                   const { icon, url } = socialIcons;
                   return (
                     <li key={index}>
-                      <a href={url}>{icon}</a>
+                      <a target="_blank" href={url}>
+                        {icon}
+                      </a>
                     </li>
                   );
                 })}
@@ -29,10 +31,14 @@ const Footer = () => {
             <h3>Contato</h3>
             <ul>
               <li>
-                <a href="">E-mail Gustavo</a>
+                <a href="mailto: gfcdesenvolvimento@gmail.com">
+                  E-mail Gustavo
+                </a>
               </li>
               <li>
-                <a href="">Ligue para Gustavo</a>
+                <a href="https://api.whatsapp.com/send?phone=5519992712982">
+                  Ligue para Gustavo
+                </a>
               </li>
             </ul>
           </div>

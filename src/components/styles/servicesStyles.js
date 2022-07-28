@@ -4,7 +4,7 @@ export const ServicesStyles = styled.section`
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  padding: 3rem 1rem;
+  padding: 6rem 1rem 3rem 1rem;
 
   @media screen and (min-width: 970px) {
     display: grid;

@@ -19,8 +19,10 @@ export const AppContext = React.createContext();
 export const AppProvider = ({ children }) => {
   const [baseTheme, setBaseTheme] = useState(true);
 
+  const [sidebarIsOpen, setSidebarIsOpen] = useState(false);
+
   const [allSkills, setAllSkill] = useState([]);
-  const [skillPerPage, setSkillPerPage] = useState(4);
+  const [skillPerPage, setSkillPerPage] = useState(8);
 
   const [allProfession, setAllProfession] = useState([]);
   const [professionPerPage, setProfessionPerPage] = useState(4);
@@ -31,6 +33,14 @@ export const AppProvider = ({ children }) => {
 
   const handleDarkMode = () => {
     setBaseTheme(false);
+  };
+
+  const openSidebar = () => {
+    setSidebarIsOpen(true);
+  };
+
+  const closeSidebar = () => {
+    setSidebarIsOpen(false);
   };
 
   const moreSkills = () => {
@@ -61,10 +71,13 @@ export const AppProvider = ({ children }) => {
     <AppContext.Provider
       value={{
         baseTheme,
+        sidebarIsOpen,
         allSkills,
         allProfession,
         handleDarkMode,
         handleLightMode,
+        openSidebar,
+        closeSidebar,
         moreSkills,
         moreProfessions,
       }}

@@ -5,12 +5,14 @@ import {
   AiFillHtml5,
   AiOutlineApi,
 } from "react-icons/ai";
+import { FaNodeJs } from "react-icons/fa";
 import {
   SiReact,
   SiStyledcomponents,
   SiTypescript,
   SiCss3,
   SiJavascript,
+  SiTailwindcss,
 } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 
@@ -21,7 +23,7 @@ export const dev = "Desenvolvedor Front-End";
 export const signature = "Gustavo";
 
 export const user = {
-  url: "https://images.pexels.com/photos/428361/pexels-photo-428361.jpeg?cs=srgb&dl=pexels-spencer-selover-428361.jpg&fm=jpg",
+  url: "user.jpeg",
   name: "Gustavo Fernandes Costa Desenvolvedor Front end",
 };
 export const links = [
@@ -34,9 +36,15 @@ export const links = [
 ];
 
 export const social = [
-  { icon: <AiFillGithub size={32} />, url: "/GitHub" },
-  { icon: <AiFillLinkedin size={32} />, url: "/Linkdin" },
-  { icon: <AiOutlineWhatsApp size={32} />, url: "/Whatsapp" },
+  { icon: <AiFillGithub size={32} />, url: "https://github.com/gustavofcosta" },
+  {
+    icon: <AiFillLinkedin size={32} />,
+    url: "https://www.linkedin.com/in/gustavo-fernandes-costa-4997b1149/",
+  },
+  {
+    icon: <AiOutlineWhatsApp size={32} />,
+    url: "https://api.whatsapp.com/send?phone=5519992712982",
+  },
 ];
 
 export const home = { title: "Gustavo ", career: "Desenvolvedor Front-End" };
@@ -54,56 +62,70 @@ export const skills = [
   {
     icon: <AiFillHtml5 />,
     title: "HTML5",
-    description:
-      "A HyperText Markup Language ou HTML é a linguagem de marcação padrão para documentos projetados para serem exibidos em um navegador da web.",
+    // description:
+    //   "A HyperText Markup Language ou HTML é a linguagem de marcação padrão para documentos projetados para serem exibidos em um navegador da web.",
   },
   {
     icon: <SiCss3 />,
     title: "CSS3",
-    description:
-      "Cascading Style Sheets é uma linguagem de folha de estilo usada para descrever a apresentação de um documento escrito em uma linguagem de marcação como HTML ou XML.",
+    // description:
+    //   "Cascading Style Sheets é uma linguagem de folha de estilo usada para descrever a apresentação de um documento escrito em uma linguagem de marcação como HTML ou XML.",
   },
   {
     icon: <SiJavascript />,
     title: "JavaScript",
-    description:
-      "JavaScript, é uma linguagem de programação que é uma das principais tecnologias da World Wide Web, juntamente com HTML e CSS.",
+    //   description:
+    //     "JavaScript, é uma linguagem de programação que é uma das principais tecnologias da World Wide Web, juntamente com HTML e CSS.",
+    //
+  },
+  {
+    icon: <FaNodeJs />,
+    title: "Node.js",
+    //   description:
+    //     "JavaScript, é uma linguagem de programação que é uma das principais tecnologias da World Wide Web, juntamente com HTML e CSS.",
+    //
   },
   {
     icon: <AiOutlineApi />,
     title: "Consumo API e RESTful",
-    description:
-      "APIs e serviços RESTful. REST (Representational State Transfer) é uma arquitetura leve que simplifica as comunicações de rede, enquanto APIs e serviços RESTful seguem essa arquitetura. ",
+    // description:
+    //   "APIs e serviços RESTful. REST (Representational State Transfer) é uma arquitetura leve que simplifica as comunicações de rede, enquanto APIs e serviços RESTful seguem essa arquitetura. ",
   },
   {
     icon: <SiReact />,
     title: "ReactJS",
-    description:
-      "React é uma biblioteca JavaScript de front-end gratuita e de código aberto para construir interfaces de usuário baseadas em componentes de interface do usuário.",
+    // description:
+    //   "React é uma biblioteca JavaScript de front-end gratuita e de código aberto para construir interfaces de usuário baseadas em componentes de interface do usuário.",
+  },
+  {
+    icon: <SiTailwindcss />,
+    title: "TailwindCSS",
+    // description:
+    //   "React é uma biblioteca JavaScript de front-end gratuita e de código aberto para construir interfaces de usuário baseadas em componentes de interface do usuário.",
   },
   {
     icon: <SiStyledcomponents />,
     title: "Styled Components",
-    description:
-      "Basicamente, styled components é uma biblioteca que possibilita escrever códigos CSS dentro do JavaScript. Com ele, ganhamos mais agilidade e precisão no desenvolvimento web.",
+    // description:
+    //   "Basicamente, styled components é uma biblioteca que possibilita escrever códigos CSS dentro do JavaScript. Com ele, ganhamos mais agilidade e precisão no desenvolvimento web.",
   },
   {
     icon: <AiFillGithub />,
     title: "GitHub",
-    description:
-      "GitHub, Inc. é um provedor de hospedagem na Internet para desenvolvimento de software e controle de versão usando Git.",
+    // description:
+    //   "GitHub, Inc. é um provedor de hospedagem na Internet para desenvolvimento de software e controle de versão usando Git.",
   },
   {
     icon: <SiTypescript />,
     title: "Typescript",
-    description:
-      "TypeScript é uma linguagem de programação desenvolvida e mantida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem.",
+    // description:
+    //   "TypeScript é uma linguagem de programação desenvolvida e mantida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem.",
   },
   {
     icon: <TbBrandNextjs />,
     title: "NextJS",
-    description:
-      "Next.js é uma estrutura de desenvolvimento web de código aberto construída sobre Node.js, permitindo funcionalidades de aplicativos web baseados em React, como renderização do lado do servidor e geração de sites estáticos",
+    // description:
+    //   "Next.js é uma estrutura de desenvolvimento web de código aberto construída sobre Node.js, permitindo funcionalidades de aplicativos web baseados em React, como renderização do lado do servidor e geração de sites estáticos",
   },
 ];
 

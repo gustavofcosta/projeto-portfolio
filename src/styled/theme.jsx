@@ -4,7 +4,7 @@ export const darkTheme = {
   bgThird: "#29292e",
   mainColor: "#00875f",
   alternativeColor: "#996DFF",
-  textPrimary: "#FFFFFF",
+  textPrimary: "#f7f7f7",
   textSecondary: "#c4c4cc",
   textTitle: "#FFFFFF",
   textBase: "#c4c4cc",
@@ -12,9 +12,9 @@ export const darkTheme = {
 };
 
 export const lightTheme = {
-  bgPrimary: "#F7FBFC",
+  bgPrimary: "#ddd7d7",
   bgSecondary: "#c4c4cc",
-  bgThird: "#eae9e9",
+  bgThird: "#e0dede",
   mainColor: "#00875f",
   alternativeColor: "#996DFF",
   textPrimary: "#0f0f0f",

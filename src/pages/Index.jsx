@@ -17,20 +17,26 @@ import Button from "../components/Button";
 import { AiOutlineArrowDown } from "react-icons/ai";
 import ButtonIcons from "../components/ButtonIcons";
 import Footer from "../components/Footer";
+import Sidebar from "../components/Sidebar";
 
 const Index = () => {
-  const { allSkills, moreSkills, allProfession, moreProfessions } =
-    useGlobalContext();
-
-  const firstSection = true;
+  const {
+    allSkills,
+    moreSkills,
+    allProfession,
+    moreProfessions,
+    closeSidebar,
+  } = useGlobalContext();
 
   return (
-    <MaxWidth>
+    <MaxWidth id="home">
       <Navbar />
+
+      <Sidebar />
 
       <main>
         {/*firstSection = 90vh*/}
-        <Section firstSection>
+        <Section>
           <Summary>
             <header>
               <h1>{home.title}</h1>
