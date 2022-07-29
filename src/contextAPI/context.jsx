@@ -35,12 +35,8 @@ export const AppProvider = ({ children }) => {
     setBaseTheme(false);
   };
 
-  const openSidebar = () => {
-    setSidebarIsOpen(true);
-  };
-
-  const closeSidebar = () => {
-    setSidebarIsOpen(false);
+  const showSidebar = () => {
+    setSidebarIsOpen(!sidebarIsOpen);
   };
 
   const moreSkills = () => {
@@ -76,8 +72,7 @@ export const AppProvider = ({ children }) => {
         allProfession,
         handleDarkMode,
         handleLightMode,
-        openSidebar,
-        closeSidebar,
+        showSidebar,
         moreSkills,
         moreProfessions,
       }}
