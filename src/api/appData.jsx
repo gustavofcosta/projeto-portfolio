@@ -217,6 +217,14 @@ export const projects = [
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when ",
   },
+   {
+    img: "test.jpg",
+    url: `url`,
+    urlgithub: "url",
+    title: "Em Produção",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when ",
+  },
 ];
 
 export const blog = [
