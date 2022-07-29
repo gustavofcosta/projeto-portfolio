@@ -4,7 +4,7 @@ import { useGlobalContext } from "../contextAPI/context";
 import { Social, Wrapper } from "./styles/sidebarStyle";
 
 const Sidebar = () => {
-  const { sidebarIsOpen } = useGlobalContext();
+  const { sidebarIsOpen, closeSidebar } = useGlobalContext();
 
    return (
     <Wrapper sidebarIsOpen={sidebarIsOpen} onClick={closeSidebar}>
