@@ -22,7 +22,7 @@ export const AppProvider = ({ children }) => {
   const [sidebarIsOpen, setSidebarIsOpen] = useState(false);
 
   const [allSkills, setAllSkill] = useState([]);
-  const [skillPerPage, setSkillPerPage] = useState(8);
+  const [skillPerPage, setSkillPerPage] = useState(20);
 
   const [allProfession, setAllProfession] = useState([]);
   const [professionPerPage, setProfessionPerPage] = useState(4);
