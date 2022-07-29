@@ -1,12 +1,16 @@
 import Navbar from "../components/Navbar";
-import { SkillsStyles } from "../components/styles/skillsStyles";
+import {
+  ArrowLeft,
+  ArrowRight,
+  SkillsStyles,
+} from "../components/styles/skillsStyles";
 import { MaxWidth } from "../components/styles/maxWidth";
 import { profession, home, description, projects } from "../api/appData";
 
 import CardItems from "../components/CardIItems";
 import ProjectsItems from "../components/ProjectsItems";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Section } from "../components/styles/section";
 import { Summary } from "../components/styles/summary";
 import { BgAlternative } from "../components/styles/bgAlternative";
@@ -14,12 +18,19 @@ import { ServicesStyles } from "../components/styles/servicesStyles";
 import { Projects } from "../components/styles/projects";
 import { useGlobalContext } from "../contextAPI/context";
 import Button from "../components/Button";
-import { AiOutlineArrowDown } from "react-icons/ai";
+import {
+  AiOutlineArrowDown,
+  AiOutlineArrowLeft,
+  AiOutlineArrowRight,
+} from "react-icons/ai";
 import ButtonIcons from "../components/ButtonIcons";
 import Footer from "../components/Footer";
 import Sidebar from "../components/Sidebar";
+import CardSkills from "../components/CardSkills";
 
 const Index = () => {
+  const carousel = useRef(null);
+
   const {
     allSkills,
     moreSkills,
@@ -27,6 +38,18 @@ const Index = () => {
     moreProfessions,
     closeSidebar,
   } = useGlobalContext();
+
+  const handleLeftClick = (e) => {
+    e.preventDefault();
+    carousel.current.scrollLeft -= carousel.current.offsetWidth;
+  };
+
+  const handleRightClick = (e) => {
+    e.preventDefault();
+    carousel.current.scrollLeft += carousel.current.offsetWidth;
+  };
+
+  const buttonSkill = true;
 
   return (
     <MaxWidth id="home">
@@ -50,16 +73,17 @@ const Index = () => {
 
           <BgAlternative id="skills">
             <h3>Skills</h3>
-            <SkillsStyles>
+            <SkillsStyles ref={carousel}>
               {allSkills.map((skill, index) => {
-                return <CardItems key={index} {...skill} />;
+                return <CardSkills key={index} {...skill} />;
               })}
             </SkillsStyles>
-            <div>
-              <ButtonIcons onClick={moreSkills}>
-                <AiOutlineArrowDown />
-              </ButtonIcons>
-            </div>
+            <ArrowLeft onClick={handleLeftClick}>
+              <AiOutlineArrowLeft />
+            </ArrowLeft>
+            <ArrowRight onClick={handleRightClick}>
+              <AiOutlineArrowRight />
+            </ArrowRight>
           </BgAlternative>
 
           <BgAlternative id="services">
@@ -69,11 +93,11 @@ const Index = () => {
                 return <CardItems key={index} {...skill} />;
               })}
             </ServicesStyles>
-            <div>
+            {/* <div>
               <ButtonIcons onClick={moreProfessions}>
                 <AiOutlineArrowDown />
               </ButtonIcons>
-            </div>
+            </div> */}
           </BgAlternative>
 
           <BgAlternative id="projects">

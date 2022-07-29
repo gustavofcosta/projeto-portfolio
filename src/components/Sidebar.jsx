@@ -4,10 +4,10 @@ import { useGlobalContext } from "../contextAPI/context";
 import { Social, Wrapper } from "./styles/sidebarStyle";
 
 const Sidebar = () => {
-  const { sidebarIsOpen, closeSidebar } = useGlobalContext();
+  const { showSidebar, handleSidebar } = useGlobalContext();
 
-   return (
-    <Wrapper sidebarIsOpen={sidebarIsOpen} onClick={closeSidebar}>
+  return (
+    <Wrapper showSidebar={showSidebar} onClick={handleSidebar}>
       <div>
         <ul>
           {links.map((link, index) => {

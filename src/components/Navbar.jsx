@@ -15,8 +15,8 @@ const Navbar = () => {
     handleDarkMode,
     handleLightMode,
     baseTheme,
+    handleSidebar,
     showSidebar,
-    sidebarIsOpen,
   } = useGlobalContext();
 
   return (
@@ -70,8 +70,8 @@ const Navbar = () => {
           )}
         </ButtonIcons>
 
-        <ButtonIcons onClick={showSidebar}>
-          {sidebarIsOpen ? <AiOutlineClose /> : <FiMenu />}
+        <ButtonIcons onClick={handleSidebar}>
+          {showSidebar ? <AiOutlineClose /> : <FiMenu />}
         </ButtonIcons>
       </span>
     </NavBar>

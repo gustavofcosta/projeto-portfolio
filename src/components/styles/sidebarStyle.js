@@ -1,9 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.nav`
-  display: ${({ sidebarIsOpen }) => {
-    return sidebarIsOpen ? "block" : "none";
-  }};
+  display: ${({ showSidebar }) => (showSidebar ? "block" : "none")};
   position: absolute;
   right: 0;
   z-index: 2;
