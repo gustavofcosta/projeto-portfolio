@@ -73,7 +73,7 @@ const Navbar = () => {
 
         {sidebarIsOpen ? (
           <ButtonIcons >
-            <AiOutlineClose />
+            <AiOutlineClose onClick={closeSidebar}/>
           </ButtonIcons>
         ) : (
           <ButtonIcons onClick={openSidebar}>
