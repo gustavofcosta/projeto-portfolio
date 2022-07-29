@@ -6,10 +6,8 @@ import { Social, Wrapper } from "./styles/sidebarStyle";
 const Sidebar = () => {
   const { sidebarIsOpen } = useGlobalContext();
 
-  const sidebar = false;
-
-  return (
-    <Wrapper sidebar>
+   return (
+    <Wrapper sidebarIsOpen={sidebarIsOpen}>
       <div>
         <ul>
           {links.map((link, index) => {
