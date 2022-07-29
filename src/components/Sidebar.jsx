@@ -7,7 +7,7 @@ const Sidebar = () => {
   const { sidebarIsOpen } = useGlobalContext();
 
    return (
-    <Wrapper sidebarIsOpen={sidebarIsOpen}>
+    <Wrapper sidebarIsOpen={sidebarIsOpen} onClick={closeSidebar}>
       <div>
         <ul>
           {links.map((link, index) => {
