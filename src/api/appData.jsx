@@ -194,6 +194,14 @@ export const profession = [
 
 export const projects = [
   {
+    img: "app-task.png",
+    url: `https://app-task-eta.vercel.app/`,
+    urlgithub: "https://github.com/gustavofcosta/app-task",
+    title: "Projeto Full Stack Todo List",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when ",
+  },
+  {
     img: "cripto.png",
     url: `https://www.coininfo.com.br/`,
     urlgithub: "https://github.com/gustavofcosta/blogfinanceiro",
@@ -206,14 +214,6 @@ export const projects = [
     url: `https://plataformadevideos.vercel.app/`,
     urlgithub: "https://github.com/gustavofcosta/Plataforma-de-videos",
     title: "Plataforma | Video",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when ",
-  },
-  {
-    img: "video.png",
-    url: `url`,
-    urlgithub: "url",
-    title: "Em Produção",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when ",
   },
