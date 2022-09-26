@@ -205,7 +205,7 @@ export const projects = [
     img: "cripto.png",
     url: `https://www.coininfo.com.br/`,
     urlgithub: "https://github.com/gustavofcosta/blogfinanceiro",
-    title: "Blog | Criptomoeda",
+    title: "Blog Criptomoeda",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when ",
   },
@@ -213,7 +213,7 @@ export const projects = [
     img: "video.png",
     url: `https://plataformadevideos.vercel.app/`,
     urlgithub: "https://github.com/gustavofcosta/Plataforma-de-videos",
-    title: "Plataforma | Video",
+    title: "Plataforma Video",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when ",
   },
