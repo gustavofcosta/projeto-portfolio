@@ -21,7 +21,7 @@ const Skills = () => {
   };
 
   return (
-    <Wrapper>
+    <Wrapper id="skills">
       <h3>Skills</h3>
       <SkillsStyles ref={carousel}>
         {allSkills.map((skill, index) => {
