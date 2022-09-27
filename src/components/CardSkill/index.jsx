@@ -1,9 +1,8 @@
-import React from "react";
-
-const CardSkills = ({ icon }) => {
+const CardSkills = ({ icon, title }) => {
   return (
     <article>
       <figure>{icon}</figure>
+      <p>{title}</p>
     </article>
   );
 };

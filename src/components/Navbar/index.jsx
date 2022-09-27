@@ -1,14 +1,14 @@
-import { user, links, social } from "../api/appData";
+import { user, links, social } from "../../api/appData";
 
 import { FaMoon } from "react-icons/fa";
 import { BsFillSunFill } from "react-icons/bs";
 import { FiMenu } from "react-icons/fi";
-
-import { NavBar } from "./styles/navBar";
-
-import ButtonIcons from "./ButtonIcons";
-import { useGlobalContext } from "../contextAPI/context";
 import { AiOutlineClose } from "react-icons/ai";
+
+import { Wrapper } from "./styled";
+import ButtonIcons from "./../ButtonIcons";
+
+import { useGlobalContext } from "../../contextAPI/context";
 
 const Navbar = () => {
   const {
@@ -20,13 +20,13 @@ const Navbar = () => {
   } = useGlobalContext();
 
   return (
-    <NavBar>
+    <Wrapper>
       <div>
         <figure>
           <img src={user.url} alt={user.name} />
         </figure>
         {baseTheme ? (
-          <ButtonIcons onClick={handleDarkMode}>
+          <ButtonIcons baseTheme={baseTheme} onClick={handleDarkMode}>
             <BsFillSunFill />
           </ButtonIcons>
         ) : (
@@ -74,7 +74,7 @@ const Navbar = () => {
           {showSidebar ? <AiOutlineClose /> : <FiMenu />}
         </ButtonIcons>
       </span>
-    </NavBar>
+    </Wrapper>
   );
 };
 

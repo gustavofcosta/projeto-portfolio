@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const NavBar = styled.header`
+export const Wrapper = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -28,6 +28,16 @@ export const NavBar = styled.header`
       width: 100%;
       object-fit: cover;
       border-radius: 50%;
+
+      :hover {
+        animation: rotate 1s infinite ease-in;
+      }
+    }
+
+    @keyframes rotate {
+      to {
+        transform: rotate(360deg);
+      }
     }
 
     :hover {
@@ -57,7 +67,7 @@ export const NavBar = styled.header`
       gap: 1.8rem;
       font-weight: bold;
       text-transform: capitalize;
-      font-size: 1.3rem;
+      font-size: 1.5rem;
 
       a {
         color: ${({ theme }) => theme.textSecondary};

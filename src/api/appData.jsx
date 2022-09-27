@@ -18,18 +18,18 @@ import { TbBrandNextjs } from "react-icons/tb";
 
 export const logo = "g";
 
-export const dev = "Desenvolvedor Front-End";
+export const dev = "Desenvolvedor Full Stack";
 
 export const signature = "Gustavo";
 
 export const user = {
-  url: "user.jpeg",
+  url: "logo.png",
   name: "Gustavo Fernandes Costa Desenvolvedor Front end",
 };
 export const links = [
   { title: "home", url: "#home" },
   { title: "Skills", url: "#skills" },
-  { title: "O que faço", url: "#services" },
+  //{ title: "O que faço", url: "#services" },
   { title: "projetos", url: "#projects" },
   // { title: "blog", url: "#blog" },
   { title: "contato", url: "#contact" },
@@ -47,11 +47,11 @@ export const social = [
   },
 ];
 
-export const home = { title: "Gustavo ", career: "Desenvolvedor Front-End" };
+export const home = { title: "Gustavo ", career: "Desenvolvedor Full Stack" };
 
 export const description = [
   {
-    info: "Olá, sou Gustavo Fernandes Costa, desenvolvedor front-end e estudante de analise e desenvolvimento de sistemas. Especialista em desenvolvimento WEB com mais de 2 anos de experiência. Possuo experiência como freelancer, além de certificação compatível.",
+    info: "Olá sou Gustavo Fernandes Costa profissional da área de desenvolvimento web, com mais de 2 anos de experiência, atuando nas áreas de Front-end e Back-end.",
   },
   // {
   //   info: "Também possuo experiência como técnico em eletroeletrônica há 9 ano realizando teste de certificação de equipamentos eletromédicos de acordo com a ABNT NBR IEC 60601-1.",
@@ -61,71 +61,69 @@ export const description = [
 export const skills = [
   {
     icon: <AiFillHtml5 />,
-    // title: "HTML5",
-    // description:
-    //   "A HyperText Markup Language ou HTML é a linguagem de marcação padrão para documentos projetados para serem exibidos em um navegador da web.",
+    title: "HTML5",
+    description:
+      "A HyperText Markup Language ou HTML é a linguagem de marcação padrão para documentos projetados para serem exibidos em um navegador da web.",
   },
   {
     icon: <SiCss3 />,
-    // title: "CSS3",
-    // description:
-    //   "Cascading Style Sheets é uma linguagem de folha de estilo usada para descrever a apresentação de um documento escrito em uma linguagem de marcação como HTML ou XML.",
+    title: "CSS3",
+    description:
+      "Cascading Style Sheets é uma linguagem de folha de estilo usada para descrever a apresentação de um documento escrito em uma linguagem de marcação como HTML ou XML.",
   },
   {
     icon: <SiJavascript />,
-    // title: "JavaScript",
-    //   description:
-    //     "JavaScript, é uma linguagem de programação que é uma das principais tecnologias da World Wide Web, juntamente com HTML e CSS.",
-    //
+    title: "JavaScript",
+    description:
+      "JavaScript, é uma linguagem de programação que é uma das principais tecnologias da World Wide Web, juntamente com HTML e CSS.",
   },
   {
     icon: <FaNodeJs />,
-    // title: "Node.js",
-    //   description:
-    //     "JavaScript, é uma linguagem de programação que é uma das principais tecnologias da World Wide Web, juntamente com HTML e CSS.",
-    //
+    title: "Node.js",
+    description:
+      "JavaScript, é uma linguagem de programação que é uma das principais tecnologias da World Wide Web, juntamente com HTML e CSS.",
   },
   {
     icon: <AiOutlineApi />,
-    // title: "Consumo API e RESTful",
-    // description:
-    //   "APIs e serviços RESTful. REST (Representational State Transfer) é uma arquitetura leve que simplifica as comunicações de rede, enquanto APIs e serviços RESTful seguem essa arquitetura. ",
+    title: "API",
+    description:
+      "APIs e serviços RESTful. REST (Representational State Transfer) é uma arquitetura leve que simplifica as comunicações de rede, enquanto APIs e serviços RESTful seguem essa arquitetura. ",
   },
   {
     icon: <SiReact />,
-    // title: "ReactJS",
-    // description:
-    //   "React é uma biblioteca JavaScript de front-end gratuita e de código aberto para construir interfaces de usuário baseadas em componentes de interface do usuário.",
+    title: "ReactJS",
+    description:
+      "React é uma biblioteca JavaScript de front-end gratuita e de código aberto para construir interfaces de usuário baseadas em componentes de interface do usuário.",
   },
   {
     icon: <SiTailwindcss />,
-    // title: "TailwindCSS",
-    // description:
-    //   "React é uma biblioteca JavaScript de front-end gratuita e de código aberto para construir interfaces de usuário baseadas em componentes de interface do usuário.",
+    title: "TailwindCSS",
+    escription:
+      "React é uma biblioteca JavaScript de front-end gratuita e de código aberto para construir interfaces de usuário baseadas em componentes de interface do usuário.",
   },
   {
     icon: <SiStyledcomponents />,
-    // title: "Styled Components",
-    // description:
-    //   "Basicamente, styled components é uma biblioteca que possibilita escrever códigos CSS dentro do JavaScript. Com ele, ganhamos mais agilidade e precisão no desenvolvimento web.",
+    title: "Styled Components",
+    description:
+      "Basicamente, styled components é uma biblioteca que possibilita escrever códigos CSS dentro do JavaScript. Com ele, ganhamos mais agilidade e precisão no desenvolvimento web.",
   },
   {
     icon: <AiFillGithub />,
-    // title: "GitHub",
-    // description:
-    //   "GitHub, Inc. é um provedor de hospedagem na Internet para desenvolvimento de software e controle de versão usando Git.",
+    title: "GitHub",
+    description:
+      "GitHub, Inc. é um provedor de hospedagem na Internet para desenvolvimento de software e controle de versão usando Git.",
   },
   {
     icon: <SiTypescript />,
-    // title: "Typescript",
-    // description:
-    //   "TypeScript é uma linguagem de programação desenvolvida e mantida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem.",
+    title: "Typescript",
+    description:
+      "TypeScript é uma linguagem de programação desenvolvida e mantida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem.",
   },
   {
     icon: <TbBrandNextjs />,
-    // title: "NextJS",
-    // description:
-    //   "Next.js é uma estrutura de desenvolvimento web de código aberto construída sobre Node.js, permitindo funcionalidades de aplicativos web baseados em React, como renderização do lado do servidor e geração de sites estáticos",
+    title: "NextJS",
+    description:
+      "Next.js é uma estrutura de desenvolvimento web de código aberto construída sobre Node.js, permitindo funcionalidades de aplicativos web baseados em React, como renderização do lado do servidor e geração de sites estáticos",
   },
 ];
 
@@ -197,7 +195,7 @@ export const projects = [
     img: "app-task.png",
     url: `https://app-task-eta.vercel.app/`,
     urlgithub: "https://github.com/gustavofcosta/app-task",
-    title: "Projeto Full Stack Todo List",
+    title: "Full-Stack Todo List",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when ",
   },

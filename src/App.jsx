@@ -1,10 +1,10 @@
 import { ThemeProvider } from "styled-components";
-import GlobalStyles from "./styled/global-styles";
 
 import Index from "./pages/Index";
 
 import { darkTheme, lightTheme } from "./styled/theme";
 import { useGlobalContext } from "./contextAPI/context";
+import { GlobalStyles } from "./styled/global-styles";
 
 function App() {
   const { baseTheme } = useGlobalContext();

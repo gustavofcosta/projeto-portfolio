@@ -1,7 +1,7 @@
-import { links, social } from "../api/appData";
-import { useGlobalContext } from "../contextAPI/context";
+import { links, social } from "../../api/appData";
+import { useGlobalContext } from "../../contextAPI/context";
 
-import { Social, Wrapper } from "./styles/sidebarStyle";
+import { Social, Wrapper } from "./styled";
 
 const Sidebar = () => {
   const { showSidebar, handleSidebar } = useGlobalContext();
