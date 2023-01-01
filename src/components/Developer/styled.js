@@ -12,7 +12,12 @@ export const Wrapper = styled.section`
   align-items: center;
   gap: 2rem;
 
+  h3 {
+    font-size: 17px;
+  }
+
   p {
-    max-width: 650px;
+    max-width: 700px;
+    font-size: 19px;
   }
 `;

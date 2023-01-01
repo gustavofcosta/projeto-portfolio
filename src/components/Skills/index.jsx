@@ -28,13 +28,6 @@ const Skills = () => {
           return <CardSkills key={index} {...skill} />;
         })}
       </SkillsStyles>
-
-      <ArrowLeft onClick={handleLeftClick}>
-        <AiOutlineArrowLeft />
-      </ArrowLeft>
-      <ArrowRight onClick={handleRightClick}>
-        <AiOutlineArrowRight />
-      </ArrowRight>
     </Wrapper>
   );
 };

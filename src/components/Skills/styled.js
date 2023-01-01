@@ -11,21 +11,12 @@ export const Wrapper = styled.section`
 
 export const SkillsStyles = styled.section`
   display: grid;
-  gap: 1.5rem;
-  overflow-x: scroll;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
   padding: 6rem 1rem 3rem 1rem;
 
   ::-webkit-scrollbar {
     display: none;
-  }
-
-  @media screen and (min-width: 800px) {
-    display: flex;
-    width: -8rem;
-
-    button {
-      display: none;
-    }
   }
 
   article {
@@ -36,6 +27,10 @@ export const SkillsStyles = styled.section`
     border-radius: 0.5rem;
     border: 3px solid ${({ theme }) => theme.bgThird};
     transition: var(--transition);
+
+    p {
+      font-size: 14px;
+    }
 
     @media screen and (min-width: 800px) {
       min-width: 16rem;
@@ -48,7 +43,7 @@ export const SkillsStyles = styled.section`
 
     figure {
       color: ${({ theme }) => theme.alternativeColor};
-      font-size: 4.5rem;
+      font-size: 4rem;
     }
   }
 `;

@@ -13,6 +13,11 @@ import {
   SiCss3,
   SiJavascript,
   SiTailwindcss,
+  SiBootstrap,
+  SiExpress,
+  SiNestjs,
+  SiPrisma,
+  SiDocker,
 } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 
@@ -23,7 +28,7 @@ export const dev = "Desenvolvedor Full Stack";
 export const signature = "Gustavo";
 
 export const user = {
-  url: "logo.png",
+  url: "user.png",
   name: "Gustavo Fernandes Costa Desenvolvedor Front end",
 };
 export const links = [
@@ -51,7 +56,7 @@ export const home = { title: "Gustavo ", career: "Desenvolvedor Full Stack" };
 
 export const description = [
   {
-    info: "Olá sou Gustavo Fernandes Costa profissional da área de desenvolvimento web, com mais de 2 anos de experiência, atuando nas áreas de Front-end e Back-end.",
+    info: "Estou cursando analise e desenvolvimento de sistemas e possuo mais de 1 ano de experiência, atuando na área de Front-end com foco em HTML5, CSS3, JavaScript, Typescript, Reactjs, React Native, Bootstrap, Styled-components, Tailwindcss, Git, GitHub, Consumo de API REST. Possuo também conhecimento em Nodejs, Express, Nestjs, Prisma, Postgres e Docker.",
   },
   // {
   //   info: "Também possuo experiência como técnico em eletroeletrônica há 9 ano realizando teste de certificação de equipamentos eletromédicos de acordo com a ABNT NBR IEC 60601-1.",
@@ -84,6 +89,18 @@ export const skills = [
       "JavaScript, é uma linguagem de programação que é uma das principais tecnologias da World Wide Web, juntamente com HTML e CSS.",
   },
   {
+    icon: <SiExpress />,
+    title: "Express",
+  },
+  {
+    icon: <SiNestjs />,
+    title: "Nest",
+  },
+  {
+    icon: <SiPrisma />,
+    title: "Prisma",
+  },
+  {
     icon: <AiOutlineApi />,
     title: "API",
     description:
@@ -108,6 +125,10 @@ export const skills = [
       "Basicamente, styled components é uma biblioteca que possibilita escrever códigos CSS dentro do JavaScript. Com ele, ganhamos mais agilidade e precisão no desenvolvimento web.",
   },
   {
+    icon: <SiBootstrap />,
+    title: "Bootstrap",
+  },
+  {
     icon: <AiFillGithub />,
     title: "GitHub",
     description:
@@ -124,6 +145,10 @@ export const skills = [
     title: "NextJS",
     description:
       "Next.js é uma estrutura de desenvolvimento web de código aberto construída sobre Node.js, permitindo funcionalidades de aplicativos web baseados em React, como renderização do lado do servidor e geração de sites estáticos",
+  },
+  {
+    icon: <SiDocker />,
+    title: "Docker",
   },
 ];
 
