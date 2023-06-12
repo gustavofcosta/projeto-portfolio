@@ -217,7 +217,7 @@ export const profession = [
 
 export const projects = [
   {
-    img: "mkt.png",
+    img: "mktt.png",
     url: `https://project-mks.vercel.app/`,
     urlgithub: "https://github.com/gustavofcosta/project-mks",
     title: "Loja + Carrinho",
@@ -225,7 +225,7 @@ export const projects = [
       "Projeto desenvolvido utilizando: Next.js, React, Styled Components, React Redux, Axios, Jest, Eslint e TypeScript.                                                             ",
   },
   {
-    img: "studio.png",
+    img: "studioo.png",
     url: `https://www.studioevolumais.com.br/`,
     urlgithub: "https://github.com/gustavofcosta/evolumais",
     title: "Estudio Digital",
@@ -233,7 +233,7 @@ export const projects = [
       "Projeto desenvolvido utilizando: React, Axios, Tailwind CSS, Framer motion e TypeScript.                                                                          ",
   },
   {
-    img: "blog.png",
+    img: "blogg.png",
     url: `https://www.coininfo.com.br/`,
     urlgithub: "https://github.com/gustavofcosta/blogfinanceiro",
     title: "Blog Criptomoeda",
@@ -250,7 +250,7 @@ export const projects = [
   },
 
   {
-    img: "cadastro.png",
+    img: "cadastroo.png",
     url: `https://fontes.vercel.app/`,
     urlgithub: "https://github.com/gustavofcosta/fontes-client",
     title: "Cadastro + Login",
