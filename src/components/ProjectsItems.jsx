@@ -9,8 +9,8 @@ const ProjectsItems = ({ url, urlgithub, img, title, description }) => {
         </a>
       </figure>
       <h3>{title}</h3>
-      <p>{description}</p>
-      <div>
+      <p className='description'>{description}</p>
+      <div className='btn'>
         <Button>
           <a href={url} target="_blank">
             Site

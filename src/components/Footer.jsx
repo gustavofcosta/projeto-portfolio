@@ -43,6 +43,8 @@ const Footer = () => {
             </ul>
           </div>
           <div>
+            {/* 
+            
             <h3>Em geral</h3>
             <ul>
               <li>
@@ -52,6 +54,7 @@ const Footer = () => {
                 <a href="">Política de Privacidade</a>
               </li>
             </ul>
+            */}
           </div>
         </div>
       </WrapperOne>

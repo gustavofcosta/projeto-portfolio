@@ -21,7 +21,11 @@ export const Projects = styled.section`
     padding: 2rem 0.5rem;
     border-radius: 0.2rem;
     transition: var(--transition);
-    border: 1px solid ${({ theme }) => theme.borderColor};
+    box-shadow: 2px 2px 4px -1px rgba(0, 0, 0, 0.41);
+    background-color: ${({ theme }) => theme.bgThird};
+    border: 3px solid ${({ theme }) => theme.bgThird};
+  
+
 
     figure {
       height: 10rem;
@@ -41,15 +45,24 @@ export const Projects = styled.section`
     }
 
     h3 {
-      font-size: 1.1rem;
+      font-size: .9rem;
       margin-top: 1.5rem;
     }
 
     p {
       margin: 1.5rem 0;
-      font-size: 1.1rem;
+      font-size: 1rem;
       /* color: ${({ theme }) => theme.textBase}; */
     }
+
+    .description{
+      min-height: 120px;
+    }
+
+    button {
+      font-size: 1rem;
+    }
+
 
     div {
       display: flex;

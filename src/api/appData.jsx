@@ -41,13 +41,13 @@ export const links = [
 ];
 
 export const social = [
-  { icon: <AiFillGithub size={32} />, url: "https://github.com/gustavofcosta" },
+  { icon: <AiFillGithub size={24} />, url: "https://github.com/gustavofcosta" },
   {
-    icon: <AiFillLinkedin size={32} />,
+    icon: <AiFillLinkedin size={24} />,
     url: "https://www.linkedin.com/in/gustavo-fernandes-costa-4997b1149/",
   },
   {
-    icon: <AiOutlineWhatsApp size={32} />,
+    icon: <AiOutlineWhatsApp size={24} />,
     url: "https://api.whatsapp.com/send?phone=5519992712982",
   },
 ];
@@ -56,11 +56,11 @@ export const home = { title: "Gustavo ", career: "Desenvolvedor Full Stack" };
 
 export const description = [
   {
-    info: "Estou cursando analise e desenvolvimento de sistemas e possuo mais de 1 ano de experiência, atuando na área de Front-end com foco em HTML5, CSS3, JavaScript, Typescript, Reactjs, React Native, Bootstrap, Styled-components, Tailwindcss, Git, GitHub, Consumo de API REST. Possuo também conhecimento em Nodejs, Express, Nestjs, Prisma, Postgres e Docker.",
+    info: "Sou um desenvolvedor de software apaixonado por criar soluções digitais impactantes. Com experiência na área de Front-end, meu foco é desenvolver interfaces intuitivas e esteticamente agradáveis. Tenho um profundo conhecimento em linguagens e frameworks como HTML5, CSS3, JavaScript, ReactJS e React Native, permitindo-me criar aplicações web e móveis de alta qualidade.",
   },
-  // {
-  //   info: "Também possuo experiência como técnico em eletroeletrônica há 9 ano realizando teste de certificação de equipamentos eletromédicos de acordo com a ABNT NBR IEC 60601-1.",
-  // },
+  {
+    info: " Além disso, possuo habilidades em Node.js, Express, NestJS, Prisma, Postgres e Docker, o que me capacita a construir aplicações completas, desde o backend até o frontend. Tenho experiência em bancos de dados como MongoDB, bem como em consumir APIs REST para integrações de sistemas eficientes.",
+  },
 ];
 
 export const skills = [
@@ -217,36 +217,53 @@ export const profession = [
 
 export const projects = [
   {
-    img: "app-task.png",
-    url: `https://app-task-eta.vercel.app/`,
-    urlgithub: "https://github.com/gustavofcosta/app-task",
-    title: "Full-Stack Todo List",
+    img: "mkt.png",
+    url: `https://project-mks.vercel.app/`,
+    urlgithub: "https://github.com/gustavofcosta/project-mks",
+    title: "Loja + Carrinho",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when ",
+      "Projeto desenvolvido utilizando: Next.js, React, Styled Components, React Redux, Axios, Jest, Eslint e TypeScript.                                                             ",
   },
   {
-    img: "cripto.png",
+    img: "studio.png",
+    url: `https://www.studioevolumais.com.br/`,
+    urlgithub: "https://github.com/gustavofcosta/evolumais",
+    title: "Estudio Digital",
+    description:
+      "Projeto desenvolvido utilizando: React, Axios, Tailwind CSS, Framer motion e TypeScript.                                                                          ",
+  },
+  {
+    img: "blog.png",
     url: `https://www.coininfo.com.br/`,
     urlgithub: "https://github.com/gustavofcosta/blogfinanceiro",
     title: "Blog Criptomoeda",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when ",
+      "Projeto desenvolvido utilizando: Next.js, React, Sanity, Next SEO, Axios, Tailwind CSS e TypeScript.                                                                          ",
   },
   {
-    img: "video.png",
-    url: `https://plataformadevideos.vercel.app/`,
-    urlgithub: "https://github.com/gustavofcosta/Plataforma-de-videos",
-    title: "Plataforma Video",
+    img: "node.jpg",
+    url: ``,
+    urlgithub: "https://github.com/gustavofcosta/api-task",
+    title: "API Task",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when ",
+      "Projeto desenvolvido utilizando: Node, Express, prisma e TypeScript.                                                                          ",
+  },
+
+  {
+    img: "cadastro.png",
+    url: `https://fontes.vercel.app/`,
+    urlgithub: "https://github.com/gustavofcosta/fontes-client",
+    title: "Cadastro + Login",
+    description:
+      "Projeto desenvolvido utilizando: React, Axios, Tailwind CSS e TypeScript.                                                                          ",
   },
   {
-    img: "video.png",
-    url: `url`,
-    urlgithub: "url",
-    title: "Em Produção",
+    img: "node.jpg",
+    url: `https://fontes.vercel.app/`,
+    urlgithub: "https://github.com/gustavofcosta/fontes-client",
+    title: "API Cadastro",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when ",
+      "Projeto desenvolvido utilizando: Node, Nest, Bcrypt, Passport-jwt, prisma e TypeScript.                                                                          ",
   },
 ];
 

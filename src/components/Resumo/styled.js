@@ -5,24 +5,18 @@ export const Wrapper = styled.section`
   position: relative;
   max-width: 100vw;
   background-color: ${({ theme }) => theme.bgPrimary};
-  height: 88vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-
-  h1 {
-    font-size: 32px;
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
   }
-
-  h3 {
-    font-size: 14px;
-  }
-
-  p {
-    max-width: 700px;
-    font-size: 18px;
+  
+  p{
+    font-size: 17px;
     letter-spacing: .8px;
   }
 `;

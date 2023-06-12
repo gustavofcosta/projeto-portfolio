@@ -1,4 +1,4 @@
-const Molde = () => {
-  return <div>Molde</div>;
+const Resumo = () => {
+  return <div>Resumo</div>;
 };
-export default Molde;
+export default Resumo;

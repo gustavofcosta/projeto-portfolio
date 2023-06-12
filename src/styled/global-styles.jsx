@@ -139,4 +139,6 @@ export const Container = styled.section`
   max-width: var(--max-width);
   width: 85vw;
   margin: 0 auto;
+
+
 `;

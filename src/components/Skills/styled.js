@@ -11,7 +11,7 @@ export const Wrapper = styled.section`
 
 export const SkillsStyles = styled.section`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 1rem;
   padding: 6rem 1rem 3rem 1rem;
 
@@ -23,18 +23,19 @@ export const SkillsStyles = styled.section`
     display: grid;
     padding: 1rem;
     background-color: ${({ theme }) => theme.bgThird};
-    box-shadow: 3px 2px 13px -2px rgba(0, 0, 0, 0.71);
-    border-radius: 0.5rem;
     border: 3px solid ${({ theme }) => theme.bgThird};
+    box-shadow: 2px 2px 4px -1px rgba(0, 0, 0, 0.41);
+    border-radius: 0.5rem;
     transition: var(--transition);
-
+    
+    
     p {
       font-size: 14px;
     }
-
+    
     @media screen and (min-width: 800px) {
-      min-width: 16rem;
-      min-height: 10rem;
+      min-width: 3rem;
+      min-height: 3rem;
     }
 
     :hover {

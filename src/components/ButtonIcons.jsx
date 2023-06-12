@@ -5,14 +5,15 @@ const Button = styled.button`
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  height: 3.1rem;
-  width: 3.1rem;
+  height: 2.5rem;
+  width: 2.5rem;
   font-size: 1.6rem;
   border-radius: 50%;
   background-color: ${({ theme }) => theme.bgPrimary};
   color: ${({ theme }) => theme.textSecondary};
   border: 2px solid ${({ theme }) => theme.textPrimary};
   transition: var(--transition);
+  font-size: 18px;
 
   :hover {
     border: 2px solid ${({ theme }) => theme.mainColor};

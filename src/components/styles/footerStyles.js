@@ -14,12 +14,12 @@ export const FooterWrapper = styled.footer`
 
   h1 {
     color: ${({ theme }) => theme.textPrimary};
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
 
   p {
     color: ${({ theme }) => theme.textSecondary};
-    font-size: 1.6rem;
+    font-size: 1rem;
   }
 `;
 
@@ -69,12 +69,12 @@ export const WrapperOne = styled.div`
       display: grid;
       h3 {
         color: ${({ theme }) => theme.textPrimary};
-        font-size: 1.4rem;
+        font-size: 1.2rem;
       }
 
       a {
         color: ${({ theme }) => theme.textSecondary};
-        font-size: 1.2rem;
+        font-size: 1rem;
         transition: var(--transition);
 
         :hover {
@@ -108,7 +108,7 @@ export const WrapperTwo = styled.div`
 
     h3 {
       color: ${({ theme }) => theme.textPrimary};
-      font-size: 1.4rem;
+      font-size: 1.1rem;
     }
 
     figure {
@@ -124,7 +124,7 @@ export const WrapperTwo = styled.div`
 
     a {
       color: ${({ theme }) => theme.textSecondary};
-      font-size: 1.2rem;
+      font-size: 1rem;
       transition: var(--transition);
       text-transform: capitalize;
 
@@ -136,7 +136,7 @@ export const WrapperTwo = styled.div`
 
   div:nth-child(2) {
     p {
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
   }
 `;

@@ -8,6 +8,7 @@ export const Wrapper = styled.header`
   height: 12vh;
   color: ${({ theme }) => theme.textSecondary};
   max-width: var(--max-width);
+  
 
   span,
   div {
@@ -17,8 +18,8 @@ export const Wrapper = styled.header`
 
   div figure {
     border-radius: 50%;
-    height: 3.1rem;
-    width: 3.1rem;
+    height: 2.5rem;
+    width: 2.5rem;
     border-radius: 50%;
     border: 2px solid ${({ theme }) => theme.textPrimary};
     transition: var(--transition);
@@ -67,7 +68,7 @@ export const Wrapper = styled.header`
       gap: 1.8rem;
       font-weight: bold;
       text-transform: capitalize;
-      font-size: 1.5rem;
+      font-size: 1.3rem;
 
       a {
         color: ${({ theme }) => theme.textSecondary};

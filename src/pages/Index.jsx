@@ -23,6 +23,7 @@ import Sidebar from "../components/Sidebar";
 import { Container } from "../styled/global-styles";
 import Developer from "../components/Developer";
 import Skills from "../components/Skills";
+import Resumo from '../components/Resumo';
 
 const Index = () => {
   const {
@@ -45,6 +46,9 @@ const Index = () => {
           <Developer />
 
           <Skills />
+
+          <Resumo />
+
 
           <BgAlternative id="projects">
             <h3>Projetos</h3>
