@@ -40,7 +40,6 @@ const Index = () => {
       <Navbar />
 
       <Sidebar />
-
       <main>
         <Section>
           <Developer />
